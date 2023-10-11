@@ -1,0 +1,39 @@
+body{
+    background-color: #000000;    
+}
+.biggestDiv{
+    text-align: center;
+    margin-top: 3rem;
+    background: white;
+    padding: 3rem;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+input{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 2rem;
+}
+
+button{
+    background: black;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.movieList{
+    color: white;
+    margin: 3rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+img{
+    width: 20%;
+}
